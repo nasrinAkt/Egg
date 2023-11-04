@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify user can not signin successfully",
+        "description": "",
+        "id": "this-is-a-ch-signin-feature;verify-user-can-not-signin-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 637751500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open \u003c\"URL\"\u003e eg",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 7
+                }
+              ],
+              "location": "Egg_Signin.open_eg(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6224991900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter username and password click log in eg",
+            "match": {
+              "location": "Egg_Signin.enter_username_and_password_click_log_in_eg()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4086748200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify user can not signin successfully",
+            "match": {
+              "location": "Egg_Signin.verify_user_can_not_signin_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is a ch signin feature",
+    "description": "",
+    "id": "this-is-a-ch-signin-feature",
+    "keyword": "Feature",
+    "uri": "Egg_Signin.feature"
+  }
+]
